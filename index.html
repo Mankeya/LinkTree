@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LinkTree project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="header">
+    <div class="logo">
+      <img src="images/Me.jpg" alt="logo">
+      <a href="https://www.instagram.com/gabrielmankke/" target="_blank">@gabrielmankke</a>
+    </div>
+
+    <div class="toggle-theme">
+      <label class="switch">
+        <input type="checkbox" id="mode-toggle">
+        <span class="slider">
+          <i class="fas fa-moon"></i>
+        </span>
+      </label>
+    </div>
+  </div>
+
+  <video autoplay muted loop id="dark-video" class="video-background active">
+    <source src="videos/background-dark.webm" type="video/webm" />
+  </video>
+
+  <video autoplay muted loop id="light-video" class="video-background">
+    <source src="videos/background-light.webm" type="video/webm" />
+  </video>
+
+  <div class="overlay"></div>
+
+  <div class="links">
+    <div class="link">
+      <a href="https://www.linkedin.com/in/gabrielmanke/" target="_blank">
+        Linkedin <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+    <div class="link">
+      <a href="https://github.com/Mankeya" target="_blank">
+        Git <i class="fab fa-github"></i>
+      </a>           
+    </div>
+    <div class="link">
+      <a href="https://mankeya.github.io/site/" target="_blank">Ver meu portfólio</a>
+    </div>
+    <div class="link">
+      <a href="#" target="_blank">Projeto conversor de arquivos</a>
+    </div>
+  </div>
+
+  <div class="footer">
+    Feito com ❤️ por Gabriel
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
